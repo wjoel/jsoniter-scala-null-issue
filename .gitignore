@@ -1,0 +1,11 @@
+.idea/
+target/
+*.iml
+*~
+**/*.class
+.attach*
+.bloop/
+.metals/
+project/metals.sbt
+.env
+.vscode/
