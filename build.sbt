@@ -4,7 +4,7 @@ version := "0.1"
 
 scalaVersion := "2.13.1"
 
-val jsoniterScalaVersion = "2.1.9"
+val jsoniterScalaVersion = "2.1.9" // Fixed in 2.1.11
 val fs2Version = "2.3.0"
 val circeVersion = "0.13.0"
 

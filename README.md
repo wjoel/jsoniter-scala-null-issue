@@ -1,7 +1,10 @@
 # jsoniter-scala-null-issue
 
+UPDATE: This was reported and fixed three hours later (!) in https://github.com/plokhotnyuk/jsoniter-scala/issues/492
+The fix is available in version 2.1.11
+
 `jsoniter-scala` seems to have problems handling nulls correctly when
-reading files using `fs2.io.file.readAll` using a chunk size with is
+reading files using `fs2.io.file.readAll` using a chunk size which is
 small relative to the file size.
 
 For larger files the chunk size can not be large enough without quickly running
